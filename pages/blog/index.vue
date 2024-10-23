@@ -26,19 +26,22 @@ import Title from '~/components/Title.vue';
             don’t have a wife, girlfriend, or kids). Even my stomach didn’t give me trouble—everything cleared out in
             the morning, and I felt as strong as an ox. I got used to my belly, and even heartburn became a part of me.
             Overall, life was great.
-
+        </Text>
+        <Text>
             But then, one day, I realized that I didn’t care about anything except beer. I spent all day at work just
             waiting for it to end so I could go home and drink. To give you an idea—smiling at someone was hard, even
             though my job involves dealing with people. But at home, after 3-4 cans, I could actually laugh at a comedy
             or a funny video. This was the first wake-up call for my inner alcoholic.
-
+        </Text>
+        <Text>
             The second sign was a low paycheck without bonuses (just a bad month, nothing I could do), and I realized I
             couldn’t get through the month with my drinking habits. I’d already had to cut back here and there, but I
             never thought about giving up my favorite beer. This time, though, I decided to try reading The Easy Way to
             Stop Drinking by Allen Carr (by the way, the guy’s a great psychologist and can definitely help, but only if
             you really want to quit). I thought, if I quit, great, and if not, I’ve got nothing to lose. That’s how I
             started quitting in February this year.
-
+        </Text>
+        <Text>
             The first month, I just lay on the couch staring at the ceiling—it was insanely boring, and I had nothing to
             do. Movies didn’t seem interesting, shows were stupid, and videos that used to be funny just annoyed me. But
             two things helped me get through it. First, I convinced myself that I didn’t need alcohol, I just needed a
@@ -47,7 +50,8 @@ import Title from '~/components/Title.vue';
             Sure, it’s not the same, but it helped me survive the first 2-3 months until the cravings got easier. And
             the cravings were strong—just thinking about beer would make me drool, like I hadn’t eaten in two days and
             smelled a barbecue.
-
+        </Text>
+        <Text>
             The second thing that helped was exercise. I didn’t know what to do with myself, as I said—movies and videos
             didn’t interest me—but I had an old rusty 10-kg dumbbell at home. Yeah, I know, exercise isn’t for everyone;
             it’s hard and not always fun, but it DISTRACTS you. It keeps your shaky hands and busy thoughts. At first, I
@@ -75,13 +79,12 @@ import Title from '~/components/Title.vue';
         ]">
         <Subtitle> A Few Thoughts on Golang: Notes on the Sidelines</Subtitle>
         <Text>
-            Introduction
-
             Golang, or simply Go, is one of those languages I stumbled upon when I needed to develop a high-performance
             web application. Initially, it was a small project, but it required maximum efficiency. Python and Java,
             which we had been using, started to lag in terms of speed. That's when someone on the team suggested trying
             Go. I opened the documentation, and within a couple of days, I was coding with it.
-
+        </Text>
+        <Text>
             Go impressed me with its simplicity. It's like C, but much more "digestible." Compilation is instantaneous,
             as is the development process itself: no fuss with libraries, simple memory management, and concurrency
             tools right out of the box. Honestly, I got hooked.
@@ -92,7 +95,8 @@ import Title from '~/components/Title.vue';
             are easy to create and manage. Instead of heavy OS threads, goroutines use minimal resources. I once tested
             a Go-based server handling thousands of connections simultaneously. What would take dozens of lines in other
             languages fit into a couple of lines using go func() in Go.
-
+        </Text>
+        <Text>
             However, there’s a catch—working with channels. Channels in Go are the means for goroutines to communicate.
             At first, it seems tricky, but once you understand how they work, they become a powerful tool. Still, one
             must be cautious with race conditions; without proper synchronization, you can easily run into subtle bugs.
@@ -118,7 +122,8 @@ import Title from '~/components/Title.vue';
             utilities and microservices. It's easy to learn and allows you to write high-quality code quickly. Go is
             ideal for cases where you need maximum speed without diving into low-level optimizations. It strikes the
             right balance between performance and development ease.
-
+        </Text>
+        <Text>
             In the end, learning Go became a great way for me to step out of my comfort zone and try something that just
             "works."
         </Text>
