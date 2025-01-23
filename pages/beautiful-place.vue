@@ -5,8 +5,8 @@
       <img v-if="showAd" @click="showAd = false" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKEtNIdP6TL1xZ_XLdKwFrmTaGaIpY5N4QEw&s" class="absolute z-50 left-1/3 ad"/>
       <img :src="images[current]" class="min-w-[800px] min-h-[800px]" />
       <div class="fixed bottom-20 w-full flex items-center justify-between">
-        <button class="bg-black mx-4 text-md font-bold rounded-md disabled:opacity-35 opacity-70 hover:opacity-100 transition" :disabled="current <= 0" @click="current--">previous</button>
-        <button class="bg-black mx-4 text-md font-bold rounded-md disabled:opacity-35 opacity-70 hover:opacity-100 transition" :disabled="current >= images.length - 1" @click="current++">next</button>
+        <button class="bg-black py-4 px-8 mx-4 text-md font-bold rounded-md disabled:opacity-35 opacity-70 hover:opacity-100 transition" :disabled="current <= 0" @click="current--">previous</button>
+        <button class="bg-black py-4 px-8 mx-4 text-md font-bold rounded-md disabled:opacity-35 opacity-70 hover:opacity-100 transition" :disabled="current >= images.length - 1" @click="current++">next</button>
       </div>
     </div>
   </div>
