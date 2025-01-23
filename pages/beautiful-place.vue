@@ -14,7 +14,7 @@
 
 <script lang="ts" setup>
 definePageMeta({
-  layout: 'beautiful-place'
+  layout: 'beautiful-place-layout'
 })
 
 
