@@ -25,5 +25,5 @@ export default defineNuxtConfig({
     families: {
       Montserrat: true
     }
-  }
+  },
 })
