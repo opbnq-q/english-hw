@@ -22,7 +22,7 @@ definePageMeta({
 const images = Array.from({length: 13}, (_, i) => `/${i + 1}.png`)
 console.log(images)
 
-const view = ref(true)
+const view = ref(false)
 
 const current = ref(0)
 
