@@ -4,7 +4,7 @@
     <div v-if="view" class="w-full h-full flex items-center justify-center overflow-hidden relative">
       <img v-if="showAd" @click="showAd = false" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKEtNIdP6TL1xZ_XLdKwFrmTaGaIpY5N4QEw&s" class="absolute z-50 left-1/3 ad"/>
       <div>
-        <img v-for="(image, index) in images" :key="index" :src="image" :style="{ display: index === current ? 'block' : 'none' }" class="min-w-[800px] min-h-[800px] max-h-[900px] object-contain" />
+        <NuxtImg v-for="(image, index) in images" :key="index" :src="image" :style="{ display: index === current ? 'block' : 'none' }" class="min-w-[800px] min-h-[800px] max-h-[900px] object-contain" />
       </div>
       <div class="fixed bottom-20 w-full flex items-center justify-between">
         <button class="bg-black py-4 px-8 mx-4 text-md font-bold rounded-md disabled:opacity-35 opacity-70 hover:opacity-100 transition" :disabled="current <= 0" @click="current--">previous</button>

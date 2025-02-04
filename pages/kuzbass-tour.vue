@@ -16,7 +16,7 @@ const current = ref(0)
         <button v-if="!started" @click="started = true" class="text-xl font-semibold px-10 py-2 rounded-xl opacity-80 transition hover:opacity-100 hover:bg-white hover:text-black border-2 border-white">Start</button>
         <div v-if="started" class="w-full h-full flex items-center justify-center overflow-hidden relative">
             <div>
-                <img v-for="(image, index) in images" :key="index" :src="image" :style="{ display: index === current ? 'block' : 'none' }" class="max-w-full max-h-screen min-w-[800px] min-h-[800px] object-contain" />
+                <NuxtImg v-for="(image, index) in images" :key="index" :src="image" :style="{ display: index === current ? 'block' : 'none' }" class="max-w-full max-h-screen min-w-[800px] min-h-[800px] object-contain" />
             </div>
             <div class="absolute top-1/2 -translate-y-1/2 w-full flex items-center justify-between">
                 <button class="mx-4 p-2 aspect-square bg-black bg-opacity-40 rounded-full text-3xl disabled:opacity-35 opacity-70 hover:opacity-100 transition" :disabled="current <= 0" @click="current--">
